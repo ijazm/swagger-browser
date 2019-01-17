@@ -1,0 +1,46 @@
+[
+    {
+        "name": "petstore",
+        "url": "http://petstore.swagger.io/v2/swagger.json"
+    },
+    {
+        "name": "instagram",
+        "url": "https://api.apis.guru/v2/specs/instagram.com/1.0.0/swagger.yaml"
+    },
+    {
+        "name": "marketplace",
+        "url": "http://52.38.221.72/api/marketplace/swagger.yaml"
+    },
+    {
+        "name": "tracktrace",
+        "url": "http://52.38.221.72/api/tracktrace/swagger.yaml"
+    },
+    {
+        "name": "matchmaking",
+        "url": "http://52.38.221.72/api/matchmaking/swagger.yaml"
+    },
+    {
+        "name": "notification",
+        "url": "http://52.38.221.72/api/notification/swagger.yaml"
+    },
+    {
+        "name": "profile",
+        "url": "http://52.38.221.72/api/profile/swagger.yaml"
+    },
+    {
+        "name": "authentication",
+        "url": "http://52.38.221.72/api/authentication/swagger.yaml"
+    },
+    {
+        "name": "chat",
+        "url": "http://52.38.221.72/api/chat/swagger.yaml"
+    },
+    {
+        "name": "onboarding",
+        "url": "http://52.38.221.72/api/onboarding/swagger.yaml"
+    },
+    {
+        "name": "mailer",
+        "url": "http://52.38.221.72/api/mailer/swagger.yaml"
+    }
+]

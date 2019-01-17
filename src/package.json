@@ -1,0 +1,28 @@
+{
+  "name": "swagger-browser",
+  "version": "1.0.0",
+  "description": "swagger interface",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SukuLab/swagger-browser.git"
+  },
+  "keywords": [
+    "swagger-browser"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SukuLab/swagger-browser/issues"
+  },
+  "homepage": "https://github.com/SukuLab/swagger-browser#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "path": "^0.12.7"
+  }
+}
