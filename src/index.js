@@ -4,7 +4,7 @@ const config = require('./config');
 const app = express();
 let swaggerSpecsSources = require('./spec-sources');
 swaggerSpecsSources = JSON.stringify(swaggerSpecsSources, null, 4);
-const port = 9000;
+const port = config.app.port;
 app.use(express.static(__dirname + '/'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(function (req, res, next) {
