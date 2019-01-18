@@ -21,8 +21,9 @@ pipeline {
         stage("Deploy swagger"){
             steps {
                 dir("src/"){
-                    sh "npm install"
-                    sh "npm start"
+                    sh returnStatus: true, script: 'docker rm -f swagger'
+                    sh "docker build -t swagger ."
+                    sh "docker run -d -p 8285:8285 CR_SWAGGER_SOURCE_HOST=$CR_SWAGGER_SOURCE_HOST CR_SWAGGER_SOURCE_ONBOARD_HOST=$CR_SWAGGER_SOURCE_ONBOARD_HOST  CR_SWAGGER_INTERFACE_PORT=$CR_SWAGGER_INTERFACE_PORT --name swagger swagger"
                 }
             }
         } 
