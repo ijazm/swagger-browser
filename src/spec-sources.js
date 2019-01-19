@@ -1,14 +1,6 @@
 const config = require('./config');
 const sources = [
     {
-        "name": "petstore",
-        "url": "http://petstore.swagger.io/v2/swagger.json"
-    },
-    {
-        "name": "instagram",
-        "url": "https://api.apis.guru/v2/specs/instagram.com/1.0.0/swagger.yaml"
-    },
-    {
         "name": "marketplace",
         "url": `${config.specSources.generic}api/marketplace/swagger.yaml`
     },
